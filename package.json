@@ -1,0 +1,45 @@
+{
+  "name": "penguin",
+  "version": "1.0.0",
+  "description": "A React UI library with Penguin styled components",
+  "main": "dist/penguin.js", 
+  "module": "dist/penguin.esm.js", 
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "penguin",
+    "components",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/penguin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/penguin/issues"
+  },
+  "homepage": "https://github.com/yourusername/penguin#readme"
+}
